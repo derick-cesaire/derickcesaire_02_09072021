@@ -3,15 +3,99 @@
     <head>
         <meta charset="utf-8" />
         <title></title>
-        <link rel="stylesheet" type="text/css" href="">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <script src="https://kit.fontawesome.com/3bb2b34cbe.js" crossorigin="anonymous"></script>
     </head>
 
     <body>
-
-        Bienvenue sur notre site
-
-        Nous sommes ravis de vous recevoir
+        <header>
+         
+        <nav>
+            <div id="conteneur_logo">
+                <a href="Reservia@3x.png"><img src="C:/Users/DéDé/Documents/P2_reservia/Reservia@3x.png" alt="Logo Reservia"/></a>
+            </div>
+            <ul>
+                <a href="#hebergements">Hébergements</a>
+                <a href="#activites">Activités</a>
+                <a href="#sinscrire">S'inscrire</a>
+            </ul>
+        </nav>
         
+         <h3>Trouvez un hébergement pour des vacances de rêve</h3>
+    <div class="conteneur_accroche">
+         <p>
+            En plein centre ville ou en pleine nature
+        </p>
+    </div>
+
+        <form method="post" action="traitement.php">
+            <i class="fas fa-map-marker-alt"></i>
+            <input type="text" id="Localisation" value="Marseille, France">
+            <input type="submit" id="Rechercher" value="Rechercher" />
+        </form>
+
+        <div class="conteneur_filtres">
+            <p><h4>Filtres</h4> 
+                <ul>
+                    <a href="#"><i class="fas fa-money-bill-wave"></i>Economique</a>
+                    <a href="#"><i class="fas fa-solid fa-child"></i>Familial</a>
+                    <a href="#"><i class="fas fa-solid fa-heart"></i>Romantique</a>
+                    <a href="#"><i class="fas fa-solid fa-dog"></i>Animaux autorisés</a>
+                </ul>
+            </p>
+        </div>
+
+        <div class="conteneur_infos">
+            <i class="fas fa-info-circle"></i> <p>Plus de 500 Logements sont libres dans cette ville</p>
+        </div>
+    </header>
+
+    <section>
+        <aside>
+            <div class="conteneur_photos">
+            <h2 id="hebergements à Marseille">Hébergements à Marseille</h2>
+               <div class="conteneur_1">
+                   <a href="auberge-de-la-cannebiere.jpg"><img src="C:/Users/DéDé/Documents/P2_reservia/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="image_auberge_de_la_cannebière"/></a><br/>
+                    <h4>Auberge de la Cannebière</h4>
+                    <p> Nuit à partir de 25€</p>
+                </div>
+
+                <div class="conteneur_2">
+                    <img src="C:/Users/DéDé/Documents/P2_reservia/hotel-du-port.jpg" alt="image hotel du port"/><br/>
+                    <h4>Hôtel du Port</h4>
+                    <p>Nuit à partir de 52€</p>
+                </div>
+
+               
+                <div class="conteneur_3">
+                    <img src="C:/Users/DéDé/Documents/P2_reservia/hotel-les-mouettes.jpg" alt="image hotel les mouettes"/><br/>
+                    <h4>Hôtel Les Mouettes</h4>
+                    <p>Nuit à partir de 76€</p>
+                </div>
+
+                <div class="conteneur_4">
+                    <img src="C:/Users/DéDé/Documents/P2_reservia/hotel-de-la-mer.jpg" alt="image hotel de la mer"/><br/>
+                    <h4>Hôtel de la Mer</h4>
+                    <p>Nuit à partir de 46€</p>
+                </div>
+
+                <div class="conteneur_5">
+                    <img src="C:/Users/DéDé/Documents/P2_reservia/auberge-le-panier.jpg" alt="image auberge le panier"/><br/>
+                    <h4>Auberge Le Panier</h4>
+                    <p>Nuit à partir de 23€</p>
+                </div>
+
+                <div class="conteneur_6">
+                    <img src="C:/Users/DéDé/Documents/P2_reservia/hotel-chez-amina.jpg" alt="image hotel chez amina"/><br/>
+                    <h4>Hotel Chez Amina</h4>
+                    <p>Nuit à partir de 96€</p>
+                </div>
+            </div>
+        </aside>
+    </section>
+        <h2 id="activites">Activités</h2>
+
+
 
     </body>
 </html>

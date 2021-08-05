@@ -1,0 +1,166 @@
+@font-face
+ {
+    font-family : 'Raleway';
+    src: url('Raleway-Regular.ttf') format('truetype');
+}
+body
+{
+    font-family: 'Raleway';
+}
+nav
+{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+img
+{
+    width: 60px;
+}
+ul
+{
+vertical-align: text-top;
+}
+
+.conteneur_filtres a
+{
+    border: 3px #F2F2F2 solid;
+    background-color: white;
+    border-radius: 10px;
+    border-width: 1px;
+    border-width: thin;
+    font-weight: bold;
+}
+p
+{
+    display: inline;
+}
+nav ul a:first-child
+{
+    border-top-style: solid; 
+    border-color:#0065FC;
+    border-width: 1px;
+    padding-top: 20px;
+    color: #0065FC;
+    
+} 
+nav ul a:last-child
+{
+    color:#0065FC ;
+    font-weight: bold;
+}
+nav ul a
+{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+nav ul a:hover
+{
+    color: #0065FC;
+}
+a:visited
+{
+    color: initial;
+}
+a
+{
+    text-decoration: none;
+}
+#Rechercher
+{
+    border-radius: 0px 10px 10px 0px;
+    background-color: #0065FC;
+    color: white;
+    font-weight: bold;
+    border-color: #0065FC;
+}
+#Localisation
+{
+    font-weight: bold;
+    border-color: white;
+}
+form i
+{
+    border-radius: 5px 0px 0px 5px;
+    color: black;
+    background-color: #F2F2F2;
+    border-color: #F2F2F2;
+    padding: 5px;
+}
+form
+{
+    display: flex;
+    justify-content: flex-start;
+}
+section
+{
+    border-radius: 10px;
+    background-color: #F2F2F2;
+    display: flex;
+}
+.conteneur
+{
+    background-color: white;
+    width: 20%;
+    border-radius: 5px;
+}
+.conteneur img
+{
+    width: 70%;
+}
+i
+{
+    border: 2px blue solid;
+    border-radius: 30px;
+    border-width: 1px;
+    background-color: #DEEBFF;
+}
+.conteneur_filtres i
+{
+    color: #0065FC;
+}
+div i
+{
+    background-color: #DEEBFF;
+    color: #0065FC;
+}
+.conteneur_filtres 
+{
+    display: flex;
+}
+.conteneur_photos
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+h3
+{
+    font-weight: bold;
+}
+.conteneur_accroche p
+{
+    color: grey;
+    font-weight: bold;
+    font-size: small;
+}
+.conteneur_infos p
+{
+    color: grey;
+    font-size: small;
+    font-weight: bold;
+}
+.conteneur_infos i
+{
+    background-color: white;
+    border-color: grey;
+    color: blue;
+}
+.conteneur_1
+{
+    border: 2px white solid;
+    background-color: white;
+    image-resolution: ;
+    
+}
