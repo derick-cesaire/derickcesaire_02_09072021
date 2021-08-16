@@ -25,6 +25,7 @@ nav
     border-width: 1px;
     border-width: thin;
     font-weight: bold;
+    margin-left: 20px;
 
 }
 .conteneur_filtres ul a span
@@ -136,6 +137,10 @@ aside
 {
     padding-top: 10px;
 }
+.conteneur_infos
+{
+    padding-bottom: 40px;
+}
 .conteneur_infos i
 {
     background-color: #DEEBFF;
@@ -172,15 +177,13 @@ aside
     flex-direction: row;
     border-radius: 20px;
     height: 190px;
-    width: 190px;
+    width: 30%;
     border-width: 4px;
 }
 .conteneur_photos
 {
-    width: 750px;
-    height: 400px;
-    background-color:#F2F2F2;
-    border-radius: 20px;
+    
+   
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -192,16 +195,32 @@ aside
     align-content: space-between;
 
 }
+#hebergements
+{
+    background-color:#F2F2F2;
+    border-radius: 20px;
+}
+#hebergements h2
+{
+    padding-left: 50px;
+    font-weight: bolder;
+}
+#hebergements i
+{
+    background-color: #F2F2F2;
+    border-color: #F2F2F2;
+}
 .conteneur_photos h4
 {
     margin-top: 0px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     text-decoration: none;
     color: black;
 }
 .conteneur_photos div 
 {
     text-decoration: none;
+    margin-bottom: 30px;
 }
 .conteneur_photos h3
 {
@@ -211,8 +230,9 @@ aside
 }
 .conteneur_photos div img
 {
-    width: 190px;
+    width: 215px;
     height: 100px;
+    object-fit: cover;
     border-radius: 20px 20px 0px 0px;
     border-color: white;
     border-width: thick;
@@ -220,6 +240,10 @@ aside
 h3
 {
     font-weight: bold;
+}
+.conteneur_accroche
+{
+    padding-bottom: 20px;
 }
 .conteneur_accroche p
 {
@@ -256,6 +280,12 @@ h3
     display: flex;
     flex-direction: row;
 }
+#populaire
+{
+    background-color:#F2F2F2;
+    border-radius: 20px;
+    margin-left: 40px;
+}
 .conteneur_populaire
 {
     background-color: #F2F2F2;
@@ -263,6 +293,8 @@ h3
     height: 540px;
     margin-left: 40px;
     border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -276,11 +308,18 @@ h3
     display: flex;
     flex-direction: row;
     border-radius: 20px;
+    border-color: white;
+    border-width: thick;
+    align-self: center;
+    justify-content: inherit;
+    margin-top: auto;
+    margin-right: 40px;
 }
 .conteneur_populaire a img
 {
     width: 120px;
     height: 120px;
+    object-fit: cover;
     border-radius: 20px 0px 0px 20px;
 }
 .conteneur_populaire h4
@@ -290,4 +329,23 @@ h3
     color: black;
     display: flex;
     flex-direction: row;
+    margin-top: 10px;
+}
+#populaire h2
+{
+    padding-left: 50px;
+}
+.conteneur_populaire p
+{
+    display: flex;
+    color: black;
+
+}
+#conteneur_logo img
+{
+    width: 60px;
+}
+#coeur a
+{
+    padding-left: 20px;
 }
