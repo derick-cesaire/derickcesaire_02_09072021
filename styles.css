@@ -1,7 +1,7 @@
 @font-face
  {
     font-family : 'Raleway';
-    src: url('Raleway-Regular.ttf') format('truetype');
+    src: url('Raleway-Medium.ttf') format('truetype');
 }
 body
 {
@@ -106,6 +106,8 @@ section
     background-color: white;
     display: flex;
     flex-direction: row;
+    margin-right: auto;
+    margin-left: auto;
 }
 aside
 {
@@ -199,6 +201,7 @@ aside
 {
     background-color:#F2F2F2;
     border-radius: 20px;
+    
 }
 #hebergements h2
 {
@@ -230,8 +233,8 @@ aside
 }
 .conteneur_photos div img
 {
-    width: 215px;
-    height: 100px;
+    width: 252px;
+    height: 120px;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
     border-color: white;
@@ -263,23 +266,7 @@ h3
     border-color: grey;
     color: blue;
 }
-.conteneur_1
-{
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between ;
-    align-items: flex-start;
-}
-.conteneur_2
-{
-    display: flex;
-    flex-direction: row;
-}
-.conteneur_3
-{
-    display: flex;
-    flex-direction: row;
-}
+
 #populaire
 {
     background-color:#F2F2F2;
@@ -349,149 +336,37 @@ h3
 {
     padding-left: 20px;
 }
-#vieux-port a img
+.carte-activite a img
 {
-    width: 230px;
-    height: 325px;
+    width: 100%;
+    height: 80%;
     border-radius: 20px 20px 0px 0px;
     
 }
-#vieux-port a
-{
-    border-radius: 20px;
-    
-}
-#vieux-port
-{
-    width: 230px;
-    height: 365px;
-    border-radius: 20px;
-    border: 3px solid #F2F2F2;
-    margin-left: 10px;
-}
-#vieux-port p
-{
-    color: black;
-    font-weight: bold;
-    display: flex;
-    flex-direction: row;
-    margin-left: 10px;
-}
-#fort a img
-{
-    width: 230px;
-    height: 150px;
-    border-radius: 20px 20px 0px 0px;
-    object-fit: cover;
-}
-#fort
-{
-    width: 230px;
-    height: 190px;
-    border-radius: 20px;
-    border: 3px solid #F2F2F2;
-}
-#fort p
-{
-    color: black;
-    font-weight: bold;
-    display: flex;
-    flex-direction: row;
-    padding-left: 10px;
-}
-#iles a img
-{
-    width: 230px;
-    height: 100px;
-    border-radius: 20px 20px 0px 0px;
-    object-fit: cover;
-}
-#iles
-{
-    width: 230px;
-    height: 140px;
-    border-radius: 20px;
-    border: 3px solid #F2F2F2;
-    margin-top: 10px;
 
-}
-#iles p
+.carte-activite a
 {
-    color: black;
-    font-weight: bold;
-    display: flex;
-    flex-direction: row;
-    padding-left: 10px;
-}
-#calanques a img
-{
-    width: 230px;
-    height: 325px;
-    border-radius: 20px 20px;
-    border-radius: 20px 20px 0px 0px;
-    object-fit: cover;
-}
-#calanques p
-{
-    color: black;
-    font-weight: bold;
-    display: flex;
-    flex-direction: row;
-    padding-left: 10px;
-}
-#calanques
-{
-    width: 230px;
-    height: 365px;
     border-radius: 20px;
-    border: 3px solid #F2F2F2;
-}
-#notre-dame a img
-{
-    width: 230px;
-    height: 100px;
-    border-radius: 20px 20px 0px 0px;
-    object-fit: cover;
-}
-#notre-dame
-{
-    width: 230px;
-    height: 145px;
-    border-radius: 20px;
-    border: 3px solid #F2F2F2;
-}
-#notre-dame p
-{
-    color: black;
-    font-weight: bold;
-    display: flex;
-    flex-direction: row;
-    padding-left: 10px;
-}
-#parc a img
-{
-    width: 230px;
-    height: 120px;
-    border-radius: 20px 20px 0px 0px;
-    object-fit: cover;
     
 }
-#parc p
+.carte-activite
+{
+    border-radius: 20px;
+    border: 3px solid #F2F2F2;
+    margin-left: 10px;
+}
+.carte-activite p
 {
     color: black;
     font-weight: bold;
     display: flex;
     flex-direction: row;
-    padding-left: 10px;
+    margin-left: 10px;
+    height: 20%;
+    padding-top: 10px;
+    margin-top: 0px;
 }
-#parc
-{
-    width: 230px;
-    height: 175px;
-    border-radius: 20px;
-    border: 3px solid #F2F2F2;
-    margin-top: 45px;
-}
+
 .conteneur_activités
 {
     display: flex;
@@ -505,20 +380,164 @@ h3
 {
     margin-left: 10px;
 }
+
 .conteneur_populaire a img
 {
     object-fit: cover;
 }
 
-.binome1
+.binome
 {
     display: flex;
     flex-direction: column;
     align-content: space-between;
+    height: 600px;
+    justify-content: space-between;
 }
-.binome2
+#calanques.carte-activite
+{
+    width: 400px;
+    height: 500px;
+    margin-right: 40px;
+    border-top: 1px;
+    border-left: 1px;
+    border-right: 1px;
+}
+#notre-dame.carte-activite
+{
+    height: 200px;
+    width: 285px;
+    border-top: 1px;
+    border-left: 1px;
+    border-right: 1px;
+}
+#parc.carte-activite
+{
+    height: 250px;
+    width: 285px;
+    margin-bottom: 100px;
+    border-top: 1px;
+    border-left: 1px;
+    border-right: 1px;
+}
+#iles.carte-activite
+{
+    height: 200px;
+    width: 285px;
+    margin-bottom: 75px;
+    margin-right: 40px;
+    border-top: 1px;
+    border-left: 1px;
+    border-right: 1px;
+}
+
+.binome .carte-activite
+{
+    height: 175px;
+
+}
+#fort.carte-activite
+{
+    height: 270px;
+    width: 285px;
+    border-top: 1px;
+    border-left: 1px;
+    border-right: 1px;
+}
+#vieux-port.carte-activite
+{
+    width: 400px;
+    height: 500px;
+    margin-right: 40px;
+    border-top: 1px;
+    border-left: 1px;
+    border-right: 1px;
+}
+
+.footer
+{
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-right: 300px;
+    margin-top: 50px;
+    
+}
+#nos-hebergements
+{
+    padding-left: 150px;
+}
+#assistance
+{
+    padding-left: 150px;
+}
+#pomegues
+{
+    background-image: url("fort-de-pomegues-small.jpg");
+    width: 100%;
+    height: 80%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+#frioules
+{
+    background-image: url("iles-du-frioules-small.jpg");
+    width: 100%;
+    height: 70%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+#parc-natio
+{
+    background-image: url("parc-national-des-calanques-small.jpg");
+    width: 285px;
+    height: 90%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+#garde
+{
+    background-image: url("notre-dame-de-la-garde-small.jpg");
+    width: 100%;
+    height: 75%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+#longchamp
+{
+    background-image: url("parc-longchamp-small.jpg");
+    width: 100%;
+    height: 80%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+#port
+{
+    background-image: url("vieux-port-small.jpg");
+    width: 285px;
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+.propos
 {
     display: flex;
     flex-direction: column;
-    align-content: space-between;
+}
+.hebergements
+{
+    display: flex;
+    flex-direction: column;
+}
+.help
+{
+    display: flex;
+    flex-direction: column;
 }
