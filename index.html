@@ -2,8 +2,10 @@
 <html>
     <head>
         <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
         <title></title>
         <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="stylesheet" type="text/css" href="media-queries.css">
         <script src="https://kit.fontawesome.com/3bb2b34cbe.js" crossorigin="anonymous"></script>
     </head>
 
@@ -37,10 +39,12 @@
         <div class="conteneur_filtres">
             <p></p><h4>Filtres</h4> 
                 <ul>
-                    <a href="#"><i class="fas fa-money-bill-wave"></i><span>Economique</span></a>
-                    <a href="#"><i class="fas fa-solid fa-child"></i><span>Familial</span></a>
-                    <a href="#"><i class="fas fa-solid fa-heart"></i><span>Romantique</span></a>
-                    <a href="#"><i class="fas fa-solid fa-dog"></i><span>Animaux autorisés</span></a>
+                    <div id="row">
+                        <a href="#"><i class="fas fa-money-bill-wave"></i><span>Economique</span></a>
+                        <a href="#"><i class="fas fa-solid fa-child"></i><span>Familial</span></a>
+                    </div>
+                        <a href="#"><i class="fas fa-solid fa-heart"></i><span>Romantique</span></a>
+                        <a href="#"><i class="fas fa-solid fa-dog"></i><span>Animaux autorisés</span></a>
                 </ul>
             
         </div>
@@ -110,7 +114,7 @@
     
         <aside>
         <div id="populaire">
-            <h2 id="Les plus populaires">Les Plus Populaires</h2>
+           <div id="icone"><h2 id="Les plus populaires">Les Plus Populaires</h2><i class="fas fa-chart-line"></i></div> 
             
     
         <div class="conteneur_populaire">
@@ -118,7 +122,7 @@
            <div id="soleil">
             <h4>Hotel Le Soleil Du Matin</h4>
              <p>Nuit à partir de <b>128€</b></p>
-            <div id="5stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div> 
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
             </div>
             </a>
 
