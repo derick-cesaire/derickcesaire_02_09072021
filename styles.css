@@ -371,6 +371,14 @@ h3
     border-radius: 20px;
     border: 3px solid #F2F2F2;
     margin-left: 10px;
+
+    width: 25%;
+    height: 500px;
+    margin-right: 40px;
+    border-top: 1px;
+    border-left: 1px;
+    border-right: 1px;
+
 }
 .carte-activite p
 {
@@ -415,60 +423,14 @@ h3
     width: 25%;
     margin-right: 40px;
 }
-#calanques.carte-activite
-{
-    width: 25%;
-    height: 500px;
-    margin-right: 40px;
-    border-top: 1px;
-    border-left: 1px;
-    border-right: 1px;
-}
-#notre-dame.carte-activite
-{
-    height: 200px;
-    width: 100%;
-    border-top: 1px;
-    border-left: 1px;
-    border-right: 1px;
-}
-#parc.carte-activite
-{
-    height: 250px;
-    width: 100%;
-    margin-bottom: 100px;
-    border-top: 1px;
-    border-left: 1px;
-    border-right: 1px;
-}
-#iles.carte-activite
+
+
+
+.binome .carte-activite
 {
     height: 200px;
     width: 100%;
     margin-bottom: 75px;
-    margin-right: 40px;
-    border-top: 1px;
-    border-left: 1px;
-    border-right: 1px;
-}
-
-.binome .carte-activite
-{
-    height: 175px;
-    width: 20%;
-}
-#fort.carte-activite
-{
-    height: 270px;
-    width: 100%;
-    border-top: 1px;
-    border-left: 1px;
-    border-right: 1px;
-}
-#vieux-port.carte-activite
-{
-    width: 25%;
-    height: 500px;
     margin-right: 40px;
     border-top: 1px;
     border-left: 1px;
