@@ -1,5 +1,10 @@
 @media screen and (max-width: 1024px)
 {
+    body 
+    {
+        margin: 0px;
+        margin-left: 5%;
+    }
     .footer
     {
         background-color: #F2F2F2;
@@ -7,6 +12,7 @@
         flex-direction: column;
         justify-content: space-around;
         margin-top: 50px;
+        padding-right: 0px;
     }
     #a-propos
     {
@@ -29,7 +35,7 @@
     footer
     {
         display: block;
-        width: 100%;
+        
     }
     .conteneur_activités
     {
@@ -46,22 +52,51 @@
         display: flex;
         flex-direction: column;
         align-content: space-between;
-        justify-content: space-between;
+        justify-content: space-around;
         width: 100%;
         margin-right: 0px;
     }
     .binome .carte-activite
     {
         margin-right: 0px;
+        margin-bottom: 0px;
+        
     }
+    #Activités
+    {
+        margin-left: 0px;
+    }
+    
     .carte-activite 
     {
         width: 100%;
-        height: 500px;
+        height: 250px;
+        margin-bottom: 30px;
+        margin-left: 0px;
         margin-right: 0px;
         border-top: 1px;
         border-left: 1px;
         border-right: 1px;
+    }
+    .binome .carte-activite
+    {
+        height: 250px;
+    }
+    #frioules
+    {
+        height: 200px;
+    }
+    #parc-natio
+    {
+        height: 200px;
+    }
+    #garde
+    {
+        height: 200px;
+    }
+    #longchamp
+    {
+        height: 200px;
     }
     section 
     {
@@ -72,6 +107,15 @@
         margin-right: auto;
         margin-left: auto;
         width: 100%;
+    }
+    #hebergements
+    {
+        margin-top: 30px;
+    }
+    #hebergements h2
+    {
+        padding-left: 30px;
+        margin-top: 50px;
     }
     aside 
     {
@@ -99,6 +143,16 @@
         padding-right: 30px;
         align-content: space-between;
     }
+    #port
+    {
+        height: 200px;
+    }
+    #pomegues
+    {
+        height: 200px;
+    }
+
+    
     .conteneur_filtres 
         {
             display: flex;
