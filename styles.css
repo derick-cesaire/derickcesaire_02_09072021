@@ -37,6 +37,15 @@ p
 {
     display: inline;
 }
+ul
+{
+    list-style-type: none;
+
+}
+ul li
+{
+    display: inline-block;
+}
 nav ul a:first-child
 {
     border-top-style: solid; 
@@ -457,7 +466,7 @@ h3
 }
 #pomegues
 {
-    background-image: url("fort-de-pomegues-small.jpg");
+    background-image: url("photos/fort-de-pomegues-small.jpg");
     width: 100%;
     height: 80%;
     background-position: center;
@@ -466,7 +475,7 @@ h3
 }
 #frioules
 {
-    background-image: url("iles-du-frioules-small.jpg");
+    background-image: url("photos/iles-du-frioules-small.jpg");
     width: 100%;
     height: 70%;
     background-position: center;
@@ -475,7 +484,7 @@ h3
 }
 #parc-natio
 {
-    background-image: url("parc-national-des-calanques-small.jpg");
+    background-image: url("photos/parc-national-des-calanques-small.jpg");
     width: 100%;
     height: 90%;
     background-position: center;
@@ -484,7 +493,7 @@ h3
 }
 #garde
 {
-    background-image: url("notre-dame-de-la-garde-small.jpg");
+    background-image: url("photos/notre-dame-de-la-garde-small.jpg");
     width: 100%;
     height: 75%;
     background-position: center;
@@ -493,7 +502,7 @@ h3
 }
 #longchamp
 {
-    background-image: url("parc-longchamp-small.jpg");
+    background-image: url("photos/parc-longchamp-small.jpg");
     width: 100%;
     height: 80%;
     background-position: center;
@@ -502,7 +511,7 @@ h3
 }
 #port
 {
-    background-image: url("vieux-port-small.jpg");
+    background-image: url("photos/vieux-port-small.jpg");
     width: 100%;
     height: 450px;
     background-position: center;

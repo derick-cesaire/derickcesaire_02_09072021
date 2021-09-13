@@ -3,7 +3,11 @@
     body 
     {
         margin: 0px;
-        margin-left: 5%;
+       
+    }
+    header
+    {
+        margin-left: 10px;
     }
     .footer
     {
@@ -24,7 +28,7 @@
         margin-left: 25px;
         margin-right: 14px;
         padding-left: 0px;
-        width: 100vw;
+        
     }
     #assistance
     {
@@ -64,7 +68,10 @@
     }
     #Activités
     {
-        margin-left: 0px;
+    
+        width: auto;
+        margin-left: 10px;
+        margin-right: 10px;
     }
     
     .carte-activite 
@@ -171,7 +178,7 @@
         }
     #row
     {
-        display: flex;
+       /* display: flex;*/
     }
     .conteneur_photos> div
     {
