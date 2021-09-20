@@ -5,7 +5,52 @@
         margin: 0px;
        
     }
-    header
+   
+    nav
+    {
+        align-items: baseline;
+        margin-top: 20px;
+    }
+    nav>a
+    {
+        margin-top: 11px;
+    }
+    nav ul li a 
+    {
+        width: 100%;
+        display: inline-block;
+        padding-left: 0px;
+        padding-right: 0px;
+        border-bottom-style: solid;
+        border-color: #0065FC;
+        border-width: 3px;
+        padding-bottom: 20px;
+        color: #0065FC;
+        font-weight: bold;
+        
+    }
+    nav ul li:first-child a
+    {
+        border-top: none;
+        border-width: 3px;
+    }
+    nav ul li:last-child a
+    {
+        border-color: #DEEBFF;
+    }
+    nav>ul
+    {
+        display: block;
+        float: initial;
+        margin-top: 25px;
+        padding-left: 0px;
+    }
+    nav ul li
+    {
+        width: 49%;
+        text-align: center;
+    }
+    #controles
     {
         margin-left: 10px;
     }
@@ -118,6 +163,7 @@
     #hebergements
     {
         margin-top: 30px;
+        background-color: white;
     }
     #hebergements h2
     {
@@ -183,6 +229,10 @@
     .conteneur_photos> div
     {
         width: 100%;
+        border: 3px solid #F2F2F2;
+        border-top: 1px;
+        border-right: 1px;
+        border-left: 1px;
     }
 
         
